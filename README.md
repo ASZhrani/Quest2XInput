@@ -1,3 +1,4 @@
+
 # Meta Quest to Xbox Controller Input Converter
 
 ## Project Overview
@@ -20,13 +21,15 @@ Make sure you have the following installed:
 
 - CMake
 - A C++ compiler (e.g., g++, clang++, or MSVC)
+- **ViGEmBus Driver**: Required for emulating Xbox controller inputs on Windows. You can download it from [ViGEmBus Releases](https://github.com/ViGEm/ViGEmBus/releases).
 
 ### Installation Steps
 
 #### Windows
 
 1. Download the [CMake](https://cmake.org/download/) installer and install it.
-2. Open a command prompt and run the following commands:
+2. Install the **ViGEmBus Driver** by downloading the latest release and running the installer.
+3. Open a command prompt and run the following commands:
 
    ```bash
    git clone https://github.com/yourusername/meta-quest-to-xbox-controller.git
@@ -77,24 +80,24 @@ Make sure you have the following installed:
 
 ## How It Works
 
-The converter uses input mapping techniques to read data from Meta Quest controllers and simulate Xbox controller inputs. The program listens for input events from the Meta Quest controllers and translates them into corresponding Xbox controller signals using a predefined mapping table.
+The converter uses input mapping techniques to read data from Meta Quest controllers and simulate Xbox controller inputs through the **ViGEmBus** driver. The program listens for input events from the Meta Quest controllers and translates them into corresponding Xbox controller signals using a predefined mapping table.
 
 ### Code Snippet
 
-Here's a simple example of how the program captures Meta Quest controller inputs and maps them to Xbox controller inputs:
+Here's a simple example of how the program captures Meta Quest controller inputs and maps them to Xbox controller inputs using **ViGEmBus**:
 
 ```cpp
 #include <iostream>
 #include <OpenXR/OpenXR.h> // OpenXR library
-#include <vJoyInterface.h> // vJoy library for Xbox inputs
+#include <ViGEm/Client.h> // ViGEm library for Xbox inputs
 
-void mapInput(XR_INPUT_ACTION action) {
+void mapInput(XR_INPUT_ACTION action, PVIGEM_CLIENT vigemClient, PVIGEM_TARGET vigemTarget) {
     switch (action) {
         case XR_INPUT_ACTION_BUTTON_A:
-            vJoySetButton(1); // Map to Xbox A button
+            vigemTarget->ButtonPressed(vigemClient, VIGEM_BUTTON_A); // Map to Xbox A button
             break;
         case XR_INPUT_ACTION_BUTTON_B:
-            vJoySetButton(2); // Map to Xbox B button
+            vigemTarget->ButtonPressed(vigemClient, VIGEM_BUTTON_B); // Map to Xbox B button
             break;
         // Add additional mappings as needed
     }
@@ -126,6 +129,7 @@ void mapInput(XR_INPUT_ACTION action) {
 ## Technologies Used
 
 - **OpenXR**: A cross-platform open standard for VR and AR applications, enabling access to VR hardware.
+- **ViGEmBus**: A virtual gamepad driver that allows applications to emulate gamepad inputs.
 - **vJoy**: A virtual joystick driver that allows software applications to emulate joystick inputs.
 
 ## Contributing
@@ -142,6 +146,6 @@ Feel free to reach out if you have any questions or need further assistance!
 ```
 
 ### Notes:
-- Adjust the GitHub URL in the installation steps as needed.
-- Ensure to include any specific libraries or additional setup steps that might be required for your project.
-- Replace the placeholder action mappings in the code snippet with actual mappings relevant to your implementation.
+- Make sure to include any specific implementation details for how ViGEmBus is used in your code.
+- Update the GitHub URL in the installation steps according to your username. 
+- Ensure that the code snippet accurately represents how you will implement the input mapping using ViGEmBus in your application.
