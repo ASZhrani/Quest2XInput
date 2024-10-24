@@ -128,9 +128,8 @@ void mapInput(XR_INPUT_ACTION action, PVIGEM_CLIENT vigemClient, PVIGEM_TARGET v
 
 ## Technologies Used
 
-- **OpenXR**: A cross-platform open standard for VR and AR applications, enabling access to VR hardware.
-- **ViGEmBus**: A virtual gamepad driver that allows applications to emulate gamepad inputs.
-- **vJoy**: A virtual joystick driver that allows software applications to emulate joystick inputs.
+- **OpenXR**: A cross-platform open standard for VR and AR applications, enabling access to VR hardware.  [^1]
+- **ViGEmBus**: A virtual gamepad driver that allows applications to emulate gamepad inputs. [^2]
 
 ## Contributing
 
@@ -150,7 +149,5 @@ Feel free to reach out if you have any questions or need further assistance!
 ---
 
 ##Footnotes
-
- -OpenXR: OpenXR is an open standard developed by the Khronos Group that provides a unified interface for virtual reality (VR) and augmented reality (AR) applications. It allows developers to create applications that can run across a wide variety of hardware and platforms without needing to customize for each one. For more information, visit the [OpenXR website](https://www.khronos.org/openxr).
-
- -ViGEmBus: ViGEmBus is a virtual gamepad driver that allows applications to emulate gamepad inputs. You can find more details and the source code at the [ViGEm GitHub repository](https://github.com/nefarius/ViGEmBus).
+[^1]: [OpenXR website](https://www.khronos.org/openxr/)
+[^2]: [ViGEm GitHub repository](https://github.com/ViGEm/ViGEmBus)
