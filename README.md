@@ -1,4 +1,5 @@
 
+
 # Quest2XInput
 
 ## Project Overview
@@ -131,23 +132,14 @@ We welcome contributions! If you'd like to contribute, please fork the repositor
 
 Feel free to reach out if you have any questions or need further assistance!
 
-```
-### Notes:
-- Make sure to include any specific implementation details for how ViGEmBus is used in your code.
-- Update the GitHub URL in the installation steps according to your username. 
-- Ensure that the code snippet accurately represents how you will implement the input mapping using ViGEmBus in your application.
-```
-
-> [!Notes:]
+> [!Notes]
 > - Make sure to include any specific implementation details for how ViGEmBus is used in your code.
 > - Update the GitHub URL in the installation steps according to your username. 
 > - Ensure that the code snippet accurately represents how you will implement the input mapping using ViGEmBus in your application.
 
 <br>
 
-
 ---
 
-## Footnotes
 [^1]: [OpenXR website](https://www.khronos.org/openxr/)
 [^2]: [ViGEm GitHub repository](https://github.com/ViGEm/ViGEmBus)
