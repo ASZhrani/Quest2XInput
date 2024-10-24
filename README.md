@@ -19,7 +19,6 @@ With **Quest2XInput**, you can play any game using the Meta Quest controllers!
 ## Key Features
 
 - **Controller Input Mapping**: Maps Meta Quest controller inputs to Xbox controller inputs seamlessly.
-- **Cross-Platform Support**: Works on Windows, macOS, and Linux.
 - **Simple Installation**: Easy to set up using CMake.
 - **Custom Input Profiles**: Create and use custom profiles for different games.
 - **Optional Scripting**: Integrate scripts for advanced functionality and automation.
