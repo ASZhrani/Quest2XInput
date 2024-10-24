@@ -1,20 +1,20 @@
 
 # Quest2XInput
-# Meta Quest to Xbox Controller Input Converter
+# 
 
 ## Project Overview
 
-The **Quest2XInput** is a C++ application designed to convert the input signals from Meta Quest 2 and Meta Quest 3 controllers into Xbox controller inputs. This allows you to use your Meta Quest controllers for games and applications that support Xbox controllers on Windows. This project is aimed at junior developers who are interested in input mapping and game development.
+The **Quest2XInput** is a C++ application Meta Quest to Xbox Controller Input Converter that designed to convert the input signals from Meta Quest 2 and Meta Quest 3 controllers into normal Xbox controller inputs. This allows you to use your Meta Quest controllers for games and applications that support Xbox controllers on Windows. This project is aimed at junior developers who are interested in input mapping and game development.
 
 Here's an improved and corrected version of your text:
 
-## Problem Solving
+## Problem Project Aims To Solve
 
 When you connect the VR headset to a Windows device using the Meta Quest Link app (the only way to connect Meta Quest controllers to Windows), you can only play games specifically designed for the Meta Quest controller.
 
 With **Quest2XInput**, you can play any game using the Meta Quest controllers!
 
-```
+```note
 **NOTE**: Unfortunately, **Quest2XInput** cannot be used on both Linux and macOS, as Meta does not provide a way to connect Meta Quest headsets to these operating systems.
 
 However, you can run **Quest2XInput** on Linux because it is just a codebase.
