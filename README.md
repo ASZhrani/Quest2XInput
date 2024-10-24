@@ -31,23 +31,12 @@ Make sure you have the following installed:
 2. Install the **ViGEmBus Driver** by downloading the latest release and running the installer.
 3. Open a command prompt and run the following commands:
 
-   ```bash
-```
+   ```bash (One line by time)
    git clone https://github.com/yourusername/meta-quest-to-xbox-controller.git
-```
-```
    cd meta-quest-to-xbox-controller
-```
-```
    mkdir build
-```
-```
    cd build
-```
-```
    cmake ..
-```
-```
    cmake --build .
    ```
 
