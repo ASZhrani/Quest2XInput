@@ -117,7 +117,7 @@ void mapInput(XR_INPUT_ACTION action, PVIGEM_CLIENT vigemClient, PVIGEM_TARGET v
 - **Custom Input Profiles**: You can create custom input profiles by editing the configuration file located in the `config` directory.
 - **Optional Scripting**: Use scripts to automate certain actions or to create complex input mappings.
 
-## Technologies Used
+## Tools Used
 
 - **OpenXR**: A cross-platform open standard for VR and AR applications, enabling access to VR hardware.  [^1]
 - **ViGEmBus**: A virtual gamepad driver that allows applications to emulate gamepad inputs. [^2]
