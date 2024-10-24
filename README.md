@@ -1,9 +1,24 @@
 
+# Quest2XInput
 # Meta Quest to Xbox Controller Input Converter
 
 ## Project Overview
 
-The **Meta Quest to Xbox Controller Input Converter** is a C++ application designed to convert the input signals from Meta Quest 2 and Meta Quest 3 controllers into Xbox controller inputs. This allows you to use your Meta Quest controllers for games and applications that support Xbox controllers on Windows, macOS, and Linux. This project is aimed at junior developers who are interested in input mapping and game development.
+The **Quest2XInput** is a C++ application designed to convert the input signals from Meta Quest 2 and Meta Quest 3 controllers into Xbox controller inputs. This allows you to use your Meta Quest controllers for games and applications that support Xbox controllers on Windows. This project is aimed at junior developers who are interested in input mapping and game development.
+
+Here's an improved and corrected version of your text:
+
+## Problem Solving
+
+When you connect the VR headset to a Windows device using the Meta Quest Link app (the only way to connect Meta Quest controllers to Windows), you can only play games specifically designed for the Meta Quest controller.
+
+With **Quest2XInput**, you can play any game using the Meta Quest controllers!
+
+```
+**NOTE**: Unfortunately, **Quest2XInput** cannot be used on both Linux and macOS, as Meta does not provide a way to connect Meta Quest headsets to these operating systems.
+
+However, you can run **Quest2XInput** on Linux because it is just a codebase.
+```
 
 ## Key Features
 
@@ -30,25 +45,6 @@ Make sure you have the following installed:
 1. Download the [CMake](https://cmake.org/download/) installer and install it.
 2. Install the **ViGEmBus Driver** by downloading the latest release and running the installer.
 3. Open a command prompt and run the following commands **(One line at a time)**:
-
-   ```bash
-   git clone https://github.com/yourusername/meta-quest-to-xbox-controller.git
-   cd meta-quest-to-xbox-controller
-   mkdir build
-   cd build
-   cmake ..
-   cmake --build .
-   ```
-
-#### macOS
-
-1. Install [Homebrew](https://brew.sh/) if you haven't already, then install CMake:
-
-   ```bash
-   brew install cmake
-   ```
-
-2. Open a terminal and run the following commands **(One line at a time)** :
 
    ```bash
    git clone https://github.com/yourusername/meta-quest-to-xbox-controller.git
