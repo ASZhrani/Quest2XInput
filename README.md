@@ -148,6 +148,6 @@ Feel free to reach out if you have any questions or need further assistance!
 
 ---
 
-##Footnotes
+## Footnotes
 [^1]: [OpenXR website](https://www.khronos.org/openxr/)
 [^2]: [ViGEm GitHub repository](https://github.com/ViGEm/ViGEmBus)
