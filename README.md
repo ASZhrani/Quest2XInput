@@ -29,9 +29,9 @@ Make sure you have the following installed:
 
 1. Download the [CMake](https://cmake.org/download/) installer and install it.
 2. Install the **ViGEmBus Driver** by downloading the latest release and running the installer.
-3. Open a command prompt and run the following commands:
+3. Open a command prompt and run the following commands **(One line at a time)**:
 
-   ```bash (One line by time)
+   ```bash
    git clone https://github.com/yourusername/meta-quest-to-xbox-controller.git
    cd meta-quest-to-xbox-controller
    mkdir build
@@ -48,7 +48,7 @@ Make sure you have the following installed:
    brew install cmake
    ```
 
-2. Open a terminal and run the following commands:
+2. Open a terminal and run the following commands **(One line at a time)** :
 
    ```bash
    git clone https://github.com/yourusername/meta-quest-to-xbox-controller.git
@@ -67,7 +67,7 @@ Make sure you have the following installed:
    sudo apt-get install cmake
    ```
 
-2. Run the following commands:
+2. Run the following commands **(One line at a time)**:
 
    ```bash
    git clone https://github.com/yourusername/meta-quest-to-xbox-controller.git
