@@ -136,13 +136,15 @@ Feel free to reach out if you have any questions or need further assistance!
 - Make sure to include any specific implementation details for how ViGEmBus is used in your code.
 - Update the GitHub URL in the installation steps according to your username. 
 - Ensure that the code snippet accurately represents how you will implement the input mapping using ViGEmBus in your application.
+```
+
 > [!Notes:]
 > - Make sure to include any specific implementation details for how ViGEmBus is used in your code.
 > - Update the GitHub URL in the installation steps according to your username. 
 > - Ensure that the code snippet accurately represents how you will implement the input mapping using ViGEmBus in your application.
 
 <br>
-```
+
 
 ---
 
