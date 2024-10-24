@@ -12,14 +12,6 @@ When you connect the VR headset to a Windows device using the Meta Quest Link ap
 
 With **Quest2XInput**, you can play any game using the Meta Quest controllers!
 
-```markdown
-> **NOTE**: 
->
-> Unfortunately, **Quest2XInput** is not supported on **Linux** and **macOS** since Meta does not provide a way to connect Meta Quest headsets to these operating systems.
->
-> However, you can still run **Quest2XInput** on **Linux**, as it is essentially a codebase.
-```
-
 ### Key Improvements:
 1. **Blockquote**: Used a blockquote format for better visual emphasis.
 2. **Bold Emphasis**: Kept important terms bold for quick reference.
@@ -32,6 +24,10 @@ With **Quest2XInput**, you can play any game using the Meta Quest controllers!
 - **Simple Installation**: Easy to set up using CMake.
 - **Custom Input Profiles**: Create and use custom profiles for different games.
 - **Optional Scripting**: Integrate scripts for advanced functionality and automation.
+
+## Disclamer: 
+ Unfortunately, **Quest2XInput** is not supported on **Linux** and **macOS** since Meta does not provide a way to connect Meta Quest headsets to these operating systems.
+ However, you can still run **Quest2XInput** on **Linux**, as it is essentially a codebase.
 
 ## Installation Guide
 
