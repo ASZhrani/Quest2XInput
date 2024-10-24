@@ -20,7 +20,7 @@ The **Meta Quest to Xbox Controller Input Converter** is a C++ application desig
 Make sure you have the following installed:
 
 - CMake
-- A C++ compiler (e.g., g++, clang++, or MSVC)
+- A C++ compiler
 - **ViGEmBus Driver**: Required for emulating Xbox controller inputs on Windows. You can download it from [ViGEmBus Releases](https://github.com/ViGEm/ViGEmBus/releases).
 
 ### Installation Steps
@@ -136,10 +136,6 @@ void mapInput(XR_INPUT_ACTION action, PVIGEM_CLIENT vigemClient, PVIGEM_TARGET v
 
 We welcome contributions! If you'd like to contribute, please fork the repository and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
 
 Feel free to reach out if you have any questions or need further assistance!
@@ -149,3 +145,12 @@ Feel free to reach out if you have any questions or need further assistance!
 - Make sure to include any specific implementation details for how ViGEmBus is used in your code.
 - Update the GitHub URL in the installation steps according to your username. 
 - Ensure that the code snippet accurately represents how you will implement the input mapping using ViGEmBus in your application.
+```
+
+---
+
+##Footnotes
+
+ -OpenXR: OpenXR is an open standard developed by the Khronos Group that provides a unified interface for virtual reality (VR) and augmented reality (AR) applications. It allows developers to create applications that can run across a wide variety of hardware and platforms without needing to customize for each one. For more information, visit the [OpenXR website](https://www.khronos.org/openxr).
+
+ -ViGEmBus: ViGEmBus is a virtual gamepad driver that allows applications to emulate gamepad inputs. You can find more details and the source code at the [ViGEm GitHub repository](https://github.com/nefarius/ViGEmBus).
