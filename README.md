@@ -32,11 +32,22 @@ Make sure you have the following installed:
 3. Open a command prompt and run the following commands:
 
    ```bash
+```
    git clone https://github.com/yourusername/meta-quest-to-xbox-controller.git
+```
+```
    cd meta-quest-to-xbox-controller
+```
+```
    mkdir build
+```
+```
    cd build
+```
+```
    cmake ..
+```
+```
    cmake --build .
    ```
 
