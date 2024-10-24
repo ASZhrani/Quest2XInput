@@ -137,6 +137,8 @@ Feel free to reach out if you have any questions or need further assistance!
 - Ensure that the code snippet accurately represents how you will implement the input mapping using ViGEmBus in your application.
 ```
 
+---
+
 ## Footnotes
 [^1]: [OpenXR website](https://www.khronos.org/openxr/)
 [^2]: [ViGEm GitHub repository](https://github.com/ViGEm/ViGEmBus)
